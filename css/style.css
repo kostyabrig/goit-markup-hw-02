@@ -59,13 +59,6 @@ a.logo {
 {
     color: var(--studio-blue);
 }
-
-button:hover {
-    color:var(--studio-white);
-    background-color: var(--studio-blue);
-    cursor: pointer;
-
-}
 /* Hero */
 .hero {
     background-color: var(--studio-darkbg);
@@ -89,6 +82,7 @@ button.hero_button {
 }
 .hero_button:hover {
     background-color: var(--studio-hover-blue);
+    cursor: pointer;
 }
 h2.section_title {
     color: var(--studio-dark);
@@ -108,7 +102,6 @@ h3.features_iteam_title {
     color: var(--studio-dark);
 }
 p.features_text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -126,7 +119,6 @@ h3.crew_title {
 }
 .crew_blox_block>p {
     text-align: center;
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
@@ -141,7 +133,6 @@ h3.crew_title {
     color: var(--studio-dark);
 }
 .project p.description {
-    font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
@@ -161,6 +152,7 @@ button.portfolio_filtr:hover,
 button.portfolio_filtr:active {
     background-color: var(--studio-blue);
     color: var(--studio-white);
+    cursor: pointer;
 }
 /* Footer */
 .footer {
